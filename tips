@@ -1,0 +1,4 @@
+1. 各组件之间的命名冲突：
+    css:通过添加前缀形成命名空间
+      eg:tabview.css ==> tabview_menu{....};
+      
