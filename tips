@@ -1,4 +1,9 @@
 1. 各组件之间的命名冲突：
     css:通过添加前缀形成命名空间
       eg:tabview.css ==> tabview_menu{....};
-      
+    js:通过匿名空间隔开公有私有（即闭包）
+2.require.js 管理js组件之间的依赖关系，并使其异步的加载；（了解commonJS 和 AMD）；
+3.原生弹窗：alert，confirm，prompt；
+    a.阻塞进程；
+    b.不同浏览器样式不同；
+    c.不可设置样式
